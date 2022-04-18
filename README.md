@@ -1,1 +1,1 @@
-app.patika.dev/pehlivan linkinden yapptığım projeleri görebilirsiniz.
+app.patika.dev/pehlivan linkinden yaptığım projeleri görebilirsiniz.
