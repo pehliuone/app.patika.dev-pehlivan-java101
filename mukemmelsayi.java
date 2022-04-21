@@ -2,19 +2,19 @@ import java.util.Scanner;
 
 public class mukemmelsayi {
     public static void main(String[] args) {
-        int n, total = 0;
-        Scanner scan = new Scanner(System.in);
+        int n, toplam = 0;
+        Scanner tara = new Scanner(System.in);
 
         System.out.print("Bir sayi giriniz : ");
-        n = scan.nextInt();
+        n = tara.nextInt();
 
         for (int i = 1; i < n; i++) {
             if (n % i == 0) {
-                total += i;
+                toplam += i;
             }
         }
 
-        if (total == n) {
+        if (toplam == n) {
             System.out.println(n + " Mükemmel sayidir.");
         } else {
             System.out.println(n + " Mükemmel sayi degildir.");
